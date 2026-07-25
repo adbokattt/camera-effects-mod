@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "cameraeffects",
+  "version": "1.0.0",
+  "name": "Camera & Sky Effects",
+  "description": "Custom camera shake and sky flash effects.",
+  "authors": ["Nikalas"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.fxmod.CameraEffectsMod"
+    ],
+    "client": [
+      "com.fxmod.client.CameraEffectsClient"
+    ]
+  },
+  "mixins": [
+    "cameraeffects.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
