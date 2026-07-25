@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.fxmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraShakeMixin",
+    "SkyRenderingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
