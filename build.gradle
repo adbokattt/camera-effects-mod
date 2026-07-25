@@ -1,5 +1,13 @@
+pluginManagement {
+    repositories {
+        maven { name = 'Fabric'; url = 'https://maven.fabricmc.net/' }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
 plugins {
-    id 'fabric-loom' version '1.7-SNAPSHOT'
+    id 'fabric-loom' version '1.7.4'
 }
 
 version = '1.0.0'
@@ -10,6 +18,7 @@ base {
 }
 
 repositories {
+    maven { name = 'Fabric'; url = 'https://maven.fabricmc.net/' }
     mavenCentral()
 }
 
